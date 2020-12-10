@@ -1,0 +1,24 @@
+{
+  "name": "planning-poker-discord-bot",
+  "version": "1.0.0",
+  "description": "A discord bot for playing planning poker",
+  "main": "index.js",
+  "author": "Fabian Kutsche",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "npx eslint ./"
+  },
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "nodemon": "^2.0.4",
+    "jest": "^26.4.2"
+  }
+}
